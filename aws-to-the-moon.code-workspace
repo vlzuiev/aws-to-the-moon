@@ -1,0 +1,49 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "maples7.terminal-inplace",
+      "ms-azuretools.vscode-docker",
+      "xyz.local-history",
+      "yzhang.markdown-all-in-one",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "rbbit.typescript-hero",
+      "jpoissonnier.vscode-styled-components",
+      "smulyono.reveal",
+      "usernamehw.errorlens",
+      "yoavbls.pretty-ts-errors",
+      "dbaeumer.vscode-eslint",
+      "styled-components.vscode-styled-components",
+      "stylelint.vscode-stylelint"
+    ]
+  },
+  "settings": {
+    "editor.tabSize": 2,
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single",
+    "editor.snippetSuggestions": "top",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact,typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true,
+      "**/.history": true
+    },
+    "typescript.preferences.importModuleSpecifier": "non-relative"
+  }
+}
